@@ -1,4 +1,4 @@
-import { INIT_FOODLIST, ADD_FOOD, DELETE_FOOD } from '../action-types'
+import { INIT_FOODLIST, ADD_FOOD } from '../constants/food'
 
 let initState = [];
 

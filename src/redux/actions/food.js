@@ -1,7 +1,7 @@
 import {
     INIT_FOODLIST,
     ADD_FOOD,
-} from '../action-types'
+} from '../constants/food'
 
 export const initFoodList = data => ({ type: INIT_FOODLIST, data })
 export const addFood = id => ({ type: ADD_FOOD, id })

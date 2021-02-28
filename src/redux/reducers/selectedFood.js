@@ -3,7 +3,7 @@ import {
     DECREMENT_COUNT,
     DELETE_SELECTED_FOOD,
     ADD_SELECTED_FOOD
-} from '../action-types'
+} from '../constants/selectedFood'
 
 let initState = [];
 

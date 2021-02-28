@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { incrementCount, decrementCount, deleteSelectedFood } from '@/redux/actions/selectedFood'
 import './index.css'
 
-class Item extends Component {
+class SelectedFoodItem extends Component {
 
     increHandle = (id) => {
         this.props.incrementCount(id)
@@ -43,10 +43,10 @@ class Item extends Component {
 }
 
 export default connect(
-    state => ({}),
+    null,
     {
         incrementCount,
         decrementCount,
         deleteSelectedFood
     }
-)(Item)
+)(SelectedFoodItem)

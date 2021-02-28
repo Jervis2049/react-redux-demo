@@ -4,7 +4,7 @@ import {
     INCREMENT_COUNT,
     DECREMENT_COUNT,
     SELECTED_FOODLIST,
-} from '../action-types'
+} from '../constants/selectedFood'
 
 export const addSelectedFood = foodItem => ({ type: ADD_SELECTED_FOOD, foodItem })
 export const deleteSelectedFood = id => ({ type: DELETE_SELECTED_FOOD, id })
